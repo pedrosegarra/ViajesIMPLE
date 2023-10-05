@@ -138,7 +138,7 @@ public class GestorViajes {
     public JSONArray consultaViajes(String origen) {
         //POR IMPLEMENTAR
 
-
+    }
 
         /**
          * El cliente codcli reserva el viaje codviaje
@@ -215,3 +215,4 @@ public class GestorViajes {
 
         }
     }
+}

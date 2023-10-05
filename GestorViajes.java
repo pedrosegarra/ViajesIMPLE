@@ -74,14 +74,14 @@ public class GestorViajes {
         // POR IMPLEMENTAR
         
         JSONArray jsonArray = new JSONArray();
-		for (String codigo : mapa.keySet()) {
-			jsonArray.add(mapa.get(codigo));
-		}
-		try {
-			os.write(jsonArray.toString());
-		} catch (IOException e) {
-			throw new RuntimeException(e);
-		}
+	for (String codigo : mapa.keySet()) {
+		jsonArray.add(mapa.get(codigo));
+	}
+	try {
+		os.write(jsonArray.toString());
+	} catch (IOException e) {
+		throw new RuntimeException(e);
+	}
     }
 
 
